@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeLoveMusic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="lateral" >
+        <button class="botao">
+            <img src="iconeperfil-removebg-preview.png" alt="Ícone de usuário" id="usuario"></button>
+        <button class="botao">   
+            <img src="aaaa-removebg-preview.png" alt="Ícone De Galeria" id="galeria"></button>
+        <button class="botao">
+            <img src="icone_comunidade-removebg-preview.png.crdownload" alt="Ícone de Comunidade" id="comunidade"></button>
+        <button class="botao">
+            <img src="icone_interrogação-removebg-preview.png.crdownload" alt="Ícone de Ajuda" id="ajuda"> </button>
+    </div>
+
+    <div id="flexbox">
+        <input type="text" id="box">
+        <input type="text" id="box2">
+        <input type="text" id="box3">
+    </div>
+
+    <div>
+        <h2>Galeria</h2>
+        <p class="fotos">Fotos</p>
+        <p class="fotos">Fotos</p>
+        <p class="fotos">Fotos</p>
+        <p class="fotos">Fotos</p>
+        <p class="fotos">Fotos</p>
+        <img src="aaaa-removebg-preview.png" alt="Icone de Galeria" id="galeriazinha">
+    </div>
+</body>
+</html>
+
+CSS: 
+body{
+    margin: 0px;
+    background-color: #E6E6FA;
+}
+
+#lateral{
+    padding-bottom: 168px;
+    background-image: linear-gradient(to bottom right, #d60abb,rgb(255, 136, 0));
+    margin-right: 1250px;
+    border: 0vw;
+    text-align: center;
+}
+
+#usuario{
+    height: 50px;
+    width: 60px;
+    margin-top: 125px;
+}
+
+#galeria{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+#comunidade{
+    margin-top: 50px;
+}
+
+#ajuda{
+    margin-top: 50px;
+}
+
+.botao{
+    background-color: transparent;
+    border: none;
+    color: #000;
+}
+
+#flexbox{
+    background-color: purple;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#box{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#box2{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#box3{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.fotos{
+    height: 50px;
+    width: 50px;
+    background-color: #d60abb;
+    align-items: center;
+}
+
+#galeriazinha{
+    height: 50px;
+    width: 50px;
+    background-color: #d60abb;
+}
